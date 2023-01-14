@@ -1,0 +1,8 @@
+lst=list(map(int,input("Enter values: ").split()))
+print(lst)
+print("Size of List:",len(lst))
+print("Reversed printed List :",lst[::-1])
+sort_lst=sorted(lst)
+print("Sorted list : ",sort_lst)
+sort_lst=sorted(lst,reverse=True)
+print("Reversed Sorted list : ",sort_lst)
