@@ -1,3 +1,4 @@
+#Writing a yaml file
 import yaml
 person_data={
     "Name":"Mike Williams",
@@ -40,12 +41,16 @@ person_data={
         }
     }
 }
-with open("Demo.yml",'w') as f:
+with open("Demo.yml", 'w') as f:
     yaml.dump(person_data,f,default_flow_style=False)
 
 '''
+
+#Reading Yaml file
 import yaml
-with open("Demo.yml","r") as f:
-    data=yaml.safe_load(f)
+
+with open('Demo.yml','r') as file:
+    data=yaml.safe_load(file)
 print(data)
+
 '''
