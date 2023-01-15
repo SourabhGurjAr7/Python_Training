@@ -1,9 +1,8 @@
-
 import yaml
 person_data={
-    "Name":"Mike",
+    "Name":"Mike Williams",
     "E-mail": "mikehomie34@gmail.com",
-    "DOB":18-4-1998,
+    "DOB":"18-4-1998",
     "Age":24,
     "Education":{
         "School":{
@@ -21,7 +20,7 @@ person_data={
         "Street":"A-21 Benjamin Street",
         "City":"New York",
         "Country":"United States of America",
-        "Zip Code":"23754",
+        "Zip Code": 23754,
 
     },
     "Languages":["Python","C","C++","Scala","Java"],
@@ -30,12 +29,12 @@ person_data={
     "Current Device":{
         "Mobile":{
             "Apple":{
-                "I-Phone 14":"256 GB"
+                "I-Phone 14":['146.7 x 71.5 x 7.8' ,'256GB 6GB RAM','iOS 16']
             }
         },
         "Laptop":{
             "HP":{
-                "HP-Spectre x360 16 (2022)":"16 GB DDR4-3200 MHz RAM"
+                "HP-Spectre x360 16 (2022)":['13.30-inch','256GB 8GB RAM','Core i7']
 
             }
         }

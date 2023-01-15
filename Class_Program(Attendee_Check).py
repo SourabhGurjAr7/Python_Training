@@ -15,10 +15,10 @@ class Student_Attendance:
     def Show_result(self):
         for i in self.dict1:
             if (n in self.dict1[i]):
-                print(n, "is present and roll number of",n,"is",i)
+                print("---",n, "is present and Roll_Number of",n,"is",i,"---")
                 break
         else:
-            print(n,"is not present...!")
+            print("---",n,"is not present...!")
 s1=Student_Attendance()
 s1.attendence_list()
 n=input("Enter name to check: ").lower()
